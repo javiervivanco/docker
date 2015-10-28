@@ -62,6 +62,7 @@ RUN apk add --no-progress \
     openssl \
     openssh-client \
     bash \
+    sudo \
     ca-certificates
 RUN addgroup -g 1000 user
 RUN adduser user -D -u 1000 -G user
